@@ -41,8 +41,8 @@ ul {
 .decorbox1 {
     background: rgb(0, 0, 0);
     background: linear-gradient(180deg, rgba(0, 0, 0, 1) 42%, rgba(25, 25, 112, 1) 82%);
+    position: relative;
 }
-
 
 .cols {
     display: flex;
@@ -68,6 +68,7 @@ ul {
 
 #simonPic {
     width: 400px;
+
 }
 
 .medbox1 {
@@ -80,7 +81,7 @@ ul {
 .listy {
     display: inline-block;
     font-size: 46pt;
-    color: white;
+    color: rgb(165, 209, 25);
     gap: 20px;
     text-align: left;
 
@@ -101,12 +102,6 @@ ul {
     padding: 30px;
 }
 
-
-#rocket {
-    width: 300px;
-    height: 300px;
-}
-
 .skyBox {
     height: 600px;
     display: flex;
@@ -118,7 +113,8 @@ ul {
 .mySkills {
     background-color: rgba(0, 212, 255, 1);
     text-align: center;
-
+    font-family: Rubik Scribble, serif;
+    font-size: 60pt;
 }
 
 .cloudBox {
@@ -201,6 +197,7 @@ background-color: aliceblue;
 
 #project1text{
     font-size: 40pt;
+    margin: 0 30px;
 }
 
 .grass{
@@ -218,4 +215,9 @@ background-color: aliceblue;
     border-radius: 60%;
     background-color: green;
 }
+/* 
+UTILITY CLASSES */
 
+.links{
+    color: white;
+}
