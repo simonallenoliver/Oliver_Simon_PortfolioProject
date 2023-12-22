@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: Varela Round, sans-serif;
 }
 
 .topBar {
@@ -42,32 +42,42 @@ ul {
     background: rgb(0, 0, 0);
     background: linear-gradient(180deg, rgba(0, 0, 0, 1) 42%, rgba(25, 25, 112, 1) 82%);
     position: relative;
+    z-index: 1;
+}
+
+
+#stars1{
+    background-image: url(./images/starsback.png);
+    height: 600px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
 }
 
 .cols {
     display: flex;
     margin: 0 40px;
-}
-
-.col1 {
-    flex: 1;
+    justify-content: center;
 }
 
 #greeting {
-    font-size: 60pt;
-    margin-left: 20px;
+    font-size: 38pt;
     text-align: center;
     color: white;
     font-family: Bungee, sans-serif;
 }
 
 #meSimon {
-    font-size: 70pt;
+    font-size: 50pt;
     color: white;
+    margin-top: 20px;
 }
 
 #simonPic {
-    width: 400px;
+    width: 150px;
+    padding-top: 0px;
+    margin-top: -50px;
 
 }
 
@@ -75,15 +85,15 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 20px;
+    margin: 0px;
 }
 
 .listy {
     display: inline-block;
-    font-size: 46pt;
+    font-size: 26pt;
     color: rgb(165, 209, 25);
     gap: 20px;
-    text-align: left;
+    text-align: center;
 
     li {
         margin: 10px 0px;
@@ -92,7 +102,7 @@ ul {
 
 .col2 {
     display: flex;
-    flex: 1;
+
     text-align: center;
     align-items: center;
 }
@@ -100,6 +110,11 @@ ul {
 .lilbox1 {
     margin: 0px;
     padding: 30px;
+}
+
+.spacesky{
+    height: 500px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 42%, rgba(25, 25, 112, 1) 82%);
 }
 
 .skyBox {
@@ -115,6 +130,7 @@ ul {
     text-align: center;
     font-family: Rubik Scribble, serif;
     font-size: 60pt;
+    font-weight: 900;
 }
 
 .cloudBox {
@@ -201,20 +217,15 @@ background-color: aliceblue;
 }
 
 .grass{
+    background-image: url(./images/soil.png);
     height: 400px;
-    background-color: green;
-    position: relative;
 }
 
-.hill1{
-    position: absolute;
-    bottom: 70px;
-    right: 0px;
-    width: 400px;
-    height: 500px;
-    border-radius: 60%;
-    background-color: green;
+.rocks{
+    background-image: url(./images/rocks.png);
+    height: 1000px;
 }
+
 /* 
 UTILITY CLASSES */
 
