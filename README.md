@@ -1,4 +1,4 @@
-# <Oliver_Simon_PortfolioProject>
+# Oliver_Simon_PortfolioProject
 
 ## Description
 

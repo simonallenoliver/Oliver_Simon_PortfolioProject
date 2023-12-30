@@ -25,7 +25,7 @@
     align-items: center;
     gap: 10px;
     color: white;
-    margin-right:170px;
+    margin-right:50px;
 }
 
 #connectArrow {
@@ -224,6 +224,17 @@ background-color: aliceblue;
 .rocks{
     background-image: url(./images/rocks.png);
     height: 1000px;
+    align-items: center;
+}
+
+.aboutme{
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+}
+#photosimon{
+    width: 200px;
 }
 
 /* 
@@ -231,4 +242,9 @@ UTILITY CLASSES */
 
 .links{
     color: white;
+}
+.textbox{
+    margin: 20px;
+    padding: 20px;
+    background-color: black;
 }
